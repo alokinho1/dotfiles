@@ -1,0 +1,33 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR __fish_initialized:3800
+SETUVAR fish_color_autosuggestion:706c5c
+SETUVAR fish_color_cancel:6A5F47\x1e\x2d\x2dreverse
+SETUVAR fish_color_command:966C34
+SETUVAR fish_color_comment:706c5c
+SETUVAR fish_color_cwd:966C34
+SETUVAR fish_color_cwd_root:6A5F47
+SETUVAR fish_color_end:C7793C
+SETUVAR fish_color_error:6A5F47
+SETUVAR fish_color_escape:74883D
+SETUVAR fish_color_history_current:\x2d\x2dbold
+SETUVAR fish_color_host:97714C
+SETUVAR fish_color_host_remote:97714C
+SETUVAR fish_color_normal:c5c5c3
+SETUVAR fish_color_operator:C39D48
+SETUVAR fish_color_param:97714C
+SETUVAR fish_color_quote:C7793C
+SETUVAR fish_color_redirection:74883D
+SETUVAR fish_color_search_match:\x2d\x2dbackground\x3d706c5c
+SETUVAR fish_color_selection:\x2d\x2dbackground\x3d706c5c
+SETUVAR fish_color_status:6A5F47
+SETUVAR fish_color_user:966C34
+SETUVAR fish_color_valid_path:\x2d\x2dunderline
+SETUVAR fish_greeting:\x1d
+SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_completion:c5c5c3
+SETUVAR fish_pager_color_description:706c5c
+SETUVAR fish_pager_color_prefix:966C34
+SETUVAR fish_pager_color_progress:706c5c
+SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3d706c5c
+SETUVAR fish_user_paths:/home/alokinho/\x2elocal/bin

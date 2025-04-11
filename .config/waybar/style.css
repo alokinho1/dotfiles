@@ -1,0 +1,33 @@
+@import "/home/alokinho/.cache/wal/colors-waybar.css";
+
+* {
+  font-family: "Iosevka Nerd Font", monospace;
+  font-size: 16px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: @background;
+  border-radius: 0px;
+  padding: 30px 25px; /* ← this controls THICCness */
+  margin: 0px;
+  color: @foreground;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+#clock,
+#battery,
+#network,
+#backlight,
+#pulseaudio,
+#custom-logo,
+#window,
+#workspaces {
+  padding: 0 18px; /* horizontal breathing room */
+}
+
+#window {
+  font-size: 17px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}

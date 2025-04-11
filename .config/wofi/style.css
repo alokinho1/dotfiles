@@ -1,0 +1,63 @@
+@import ".cache/wal/colors-waybar.css";
+
+/* Window container */
+window {
+    margin: 0;
+    border: none;
+    background-color: alpha(@background, 0.95);
+    border-radius: 16px;
+    font-family: "Iosevka Nerd Font", sans-serif;
+    font-size: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Input field */
+#input {
+    margin: 20px;
+    padding: 10px 14px;
+    border-radius: 12px;
+    background-color: alpha(@color0, 0.9);
+    color: @foreground;
+    border: none;
+}
+
+/* Entry list */
+#entry {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    margin: 6px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: @foreground;
+}
+
+/* Highlighted entry */
+#entry:selected {
+    background-color: @color2;
+    color: @background;
+}
+
+/* Icon size and spacing */
+#entry image {
+    min-height: 20px;
+    min-width: 20px;
+    max-height: 20px;
+    max-width: 20px;
+    margin-right: 8px;
+}
+
+/* Scrollbar hidden */
+#scroll {
+    margin: 0;
+    border: none;
+}
+
+/* Hide prompt */
+#prompt {
+    margin: 0;
+    padding: 0;
+    color: transparent;
+}
+

@@ -1,0 +1,58 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin-left": 20,
+  "margin-right": 20,
+  "margin-top": 0,
+
+  "modules-left": ["custom/logo", "clock", "hyprland/workspaces"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": ["network", "battery", "backlight", "pulseaudio"],
+
+  "custom/logo": {
+    "format": "",
+    "tooltip": false
+  },
+
+  "window": {
+    "format": "{:35.35}", 
+    "max-length": 35
+  },
+
+  "network": {
+    "interface": "wlan0",
+    "format-wifi": "  Haven",
+    "format-ethernet": "  {ipaddr}",
+    "format-disconnected": "󰤭  Offline"
+  },
+
+  "battery": {
+    "format": "{capacity}% {icon}",
+    "format-icons": ["", "", "", "", ""]
+  },
+
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "  {percent}%"
+  },
+
+  "pulseaudio": {
+    "format": "  {volume}%",
+    "format-muted": " Muted"
+  },
+
+  "clock": {
+    "format": "  {:%H:%M %a %d %b}",
+    "tooltip-format": "{:%A, %B %d, %Y | %H:%M:%S}",
+    "interval": 60
+  },
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "all-outputs": true,
+    "on-click": "activate",
+    "active-only": false,
+    "sort-by-number": true
+  }
+}
+

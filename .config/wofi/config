@@ -1,0 +1,15 @@
+# Wofi Config - Minimal MacOS-style inspired
+show=drun
+prompt=
+insensitive=true
+term=foot
+width=30%
+height=35%
+location=center
+allow_markup=true
+hide_scroll=true
+no_actions=true
+filter_rate=100
+allow_images=false
+gtk_dark=true
+
