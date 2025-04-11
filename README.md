@@ -1,0 +1,93 @@
+# 🌱 alokinho's Dotfiles
+
+This repo contains symlinked config files managed with custom scripts and includes an automated Git sync setup using `systemd`. Designed for a minimal and efficient dotfile workflow on Linux (tested on Arch-based systems).
+
+---
+
+## 🛠️ Requirements
+
+Make sure these are installed:
+
+- `git`
+- `bash`
+- `systemd` (with user services/timers support)
+- `dunst` (for desktop notifications)
+- `notify-send` (from `libnotify`)
+- `curl` (optional, for additional scripts)
+- A GitHub account with SSH or HTTPS access set up
+
+---
+
+## 📁 Directory Structure
+
+Your `$HOME/dotfiles` will contain:
+dotfiles/
+├── .config/ # Symlinked config folders live here 
+├── .git/ # Git repository 
+├── .gitignore # Ignore list for Git 
+├── .syncignore # Ignore list for config sync 
+├── auto-git.sh # Git wrapper to auto commit and push 
+├── sync-and-push.sh # Main sync and push script 
+├── sync.log # Log file for sync activity
+
+Feel free to delete `.git` and `.gitignore` and other files if you dont want to use the sctipts 
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. 📥 Clone the Repo
+
+Clone this repo and move it's contents to .config except `.sh` files if you dont want to use the scripts
+
+```
+git clone https://github.com/alokinho1/dotfiles.git
+```
+
+# Only do these if you're me.
+
+## 🔗 Symlink Config Files
+
+Add folders you don’t want to sync from `~/.config` to `.syncignore`
+Then run:
+
+```
+cd ~/dotfiles
+./sync-and-push.sh
+```
+This will create symlinks inside `~/dotfiles/.config` pointing to your real files in `~/.config`.
+
+## 🔁 Automate It with systemd
+Save the following files in `~/.config/systemd/user/`:
+
+    dotfiles-sync.service
+
+    dotfiles-sync.timer
+
+Then run:
+```
+systemctl --user daemon-reload
+systemctl --user enable --now dotfiles-sync.timer
+```
+
+This sets up a 12-hour sync and push cycle.
+Check it with 
+```
+systemctl --user list-timers --all | grep dotfiles-sync
+```
+
+## 🔔 Notifications
+After a successful push, you’ll see a notification using `notify-send` and `dunst`.
+
+You can change this in `auto-git.sh`.
+
+## 💡 Manual Usage
+You can run this anytime:
+```
+./bash ~/dotfiles/sync-and-push.sh
+```
+
+## 🧼 Notes
+Avoid pushing sensitive files (tokens, credentials).
+
+Make sure .syncignore and .gitignore are set up properly to avoid clutter.
