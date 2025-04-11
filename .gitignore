@@ -1,0 +1,15 @@
+# Ignore sync script
+sync-configs.sh
+
+# Ignore your ignore list
+.syncignore
+
+# Ignore temporary/editor files
+*.swp
+*.bak
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
