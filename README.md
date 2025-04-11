@@ -31,6 +31,7 @@ Make sure these are installed:
 ## 📁 Directory Structure
 
 Your `$HOME/dotfiles` will contain:
+```
 dotfiles/
 ├── .config/ # Symlinked config folders live here 
 ├── .git/ # Git repository 
@@ -39,7 +40,7 @@ dotfiles/
 ├── auto-git.sh # Git wrapper to auto commit and push 
 ├── sync-and-push.sh # Main sync and push script 
 ├── sync.log # Log file for sync activity
-
+```
 Feel free to delete `.git` and `.gitignore` and other files if you dont want to use the sctipts 
 
 ---
