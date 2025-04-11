@@ -103,4 +103,6 @@ cd dotfiles
 ## 🧼 Notes
 Avoid pushing sensitive files (tokens, credentials).
 
+Make sure to edit `.config` only
+
 Make sure .syncignore and .gitignore are set up properly to avoid clutter.
