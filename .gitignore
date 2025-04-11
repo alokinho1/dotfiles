@@ -1,5 +1,5 @@
 # Ignore sync script
-sync-configs.sh
+#sync-configs.sh
 
 # Ignore your ignore list
 .syncignore
