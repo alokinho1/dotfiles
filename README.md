@@ -1,6 +1,6 @@
 # 🌱 alokinho's Dotfiles
 
-This repo contains symlinked config files managed with custom scripts and includes an automated Git sync setup using `systemd`. Designed for a minimal and efficient dotfile workflow on Linux (tested on Arch-based systems).
+This repo contains symlinked config files managed with custom scripts and includes an automated Git sync setup using `systemd`. Designed for a minimal and efficient dotfile workflow on Linux (tested on Arch-based systems). Very similar to GNU Stow
 
 ---
 
@@ -9,12 +9,22 @@ This repo contains symlinked config files managed with custom scripts and includ
 Make sure these are installed:
 
 - `git`
-- `bash`
+- `fish`
 - `systemd` (with user services/timers support)
 - `dunst` (for desktop notifications)
 - `notify-send` (from `libnotify`)
 - `curl` (optional, for additional scripts)
-- A GitHub account with SSH or HTTPS access set up
+
+- `cava`
+- `fish`
+- `kitty`
+- `nvim`
+- `pywal-16`
+- `waybar`
+- `waypaper`
+- `wlogout`
+- `wofi`
+- `zathura`
 
 ---
 
@@ -84,7 +94,8 @@ You can change this in `auto-git.sh`.
 ## 💡 Manual Usage
 You can run this anytime:
 ```
-./bash ~/dotfiles/sync-and-push.sh
+cd dotfiles
+./sync-and-push.sh
 ```
 
 ## 🧼 Notes
