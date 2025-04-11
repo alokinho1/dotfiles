@@ -1,6 +1,8 @@
 # 🌱 alokinho's Dotfiles
 
-This repo contains symlinked config files managed with custom scripts and includes an automated Git sync setup using `systemd`. Designed for a minimal and efficient dotfile workflow on Linux (tested on Arch-based systems). Very similar to GNU Stow
+Similar to GNU Stow but with automated bash scripts 
+
+Credits: ChatGPT
 
 ---
 
@@ -10,7 +12,6 @@ Make sure these are installed:
 
 - `git`
 - `fish`
-- `systemd` (with user services/timers support)
 - `dunst` (for desktop notifications)
 - `notify-send` (from `libnotify`)
 - `curl` (optional, for additional scripts)
