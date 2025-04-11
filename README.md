@@ -55,7 +55,7 @@ Clone this repo and move it's contents to .config except `.sh` files if you dont
 git clone https://github.com/alokinho1/dotfiles.git
 ```
 
-# Only do these if you're me.
+# Only do these if you're me. (alokinho)
 
 ## 🔗 Symlink Config Files
 
