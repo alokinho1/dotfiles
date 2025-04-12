@@ -1,9 +1,9 @@
 {
   "layer": "top",
   "position": "top",
-  "margin-left": 20,
-  "margin-right": 20,
-  "margin-top": 0,
+  "margin-left": 40,
+  "margin-right": 40,
+  "margin-top": 10,
 
   "modules-left": ["custom/logo", "clock", "hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
