@@ -130,6 +130,6 @@ Make sure .syncignore and .gitignore are set up properly to avoid clutter.
 
 ## 📄 To-Do
 
-1. Add .timer & .service scripts in the README 
+1. Add .timer & .service scripts in the README ✔️
 2. Learn GNU Stow
 3. Screenshots because why not
