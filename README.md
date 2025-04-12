@@ -72,9 +72,30 @@ This will create symlinks inside `~/dotfiles/.config` pointing to your real file
 ## 🔁 Automate It with systemd
 Save the following files in `~/.config/systemd/user/`:
 
-    dotfiles-sync.service
+    dotfiles-sync.service :
+  ```  
+[Unit]
+Description=Sync and push dotfiles to GitHub
 
-    dotfiles-sync.timer
+[Service]
+Type=oneshot
+ExecStart=/home/alokinho/dotfiles/sync-and-push.sh
+```
+
+    dotfiles-sync.timer :
+```
+[Unit]
+Description=Run dotfiles sync-and-push every 3 hours
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=12h
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+
+```
 
 Then run:
 ```
