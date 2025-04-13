@@ -7,7 +7,8 @@
 }
 
 window#waybar {
-  background: @background;
+  /* background: @background; */
+  background: transparent;
   border-radius: 0px;
   padding: 30px 25px; /* ← this controls THICCness */
   margin: 0px;
@@ -24,6 +25,7 @@ window#waybar {
 #window,
 #workspaces {
   padding: 0 18px; /* horizontal breathing room */
+  color: @foreground;
 }
 
 #window {
