@@ -1,7 +1,7 @@
 @import "/home/alokinho/.cache/wal/colors-waybar.css";
 
 * {
-  font-family: "Iosevka Nerd Font", monospace;
+  font-family: "Iosevka Nerd Font", monospace; 
   font-size: 16px;
   min-height: 0;
 }
@@ -24,7 +24,7 @@ window#waybar {
 #custom-logo,
 #window,
 #workspaces {
-  padding: 0 18px; /* horizontal breathing room */
+  padding: 0 10px; /* horizontal breathing room */
   color: @foreground;
 }
 
