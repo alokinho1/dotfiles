@@ -25,7 +25,8 @@ Make sure these are installed:
 - `waypaper`
 - `wlogout`
 - `wofi`
-- `zathura`
+- `zathura
+- `clipse
 
 ---
 

@@ -4,6 +4,7 @@
 # Ignore your ignore list
 .syncignore
 
+
 # Ignore temporary/editor files
 *.swp
 *.bak
