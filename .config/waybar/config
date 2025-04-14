@@ -21,28 +21,28 @@
 
   "network": {
     "interface": "wlan0",
-    "format-wifi": "  Haven",
+    "format-wifi": "    Haven",
     "format-ethernet": "  {ipaddr}",
     "format-disconnected": "󰤭  Offline"
   },
 
   "battery": {
-    "format": "{capacity}% {icon}",
+    "format": "{capacity}%   {icon}",
     "format-icons": ["", "", "", "", ""]
   },
 
   "backlight": {
     "device": "intel_backlight",
-    "format": "  {percent}%"
+    "format": "    {percent}%"
   },
 
   "pulseaudio": {
-    "format": "  {volume}%",
-    "format-muted": " Muted"
+    "format": "    {volume}%",
+    "format-muted": "   Muted"
   },
 
   "clock": {
-    "format": "  {:%H:%M %a %d %b}",
+    "format": "    {:%H:%M %a %d %b}",
     "tooltip-format": "{:%A, %B %d, %Y | %H:%M:%S}",
     "interval": 60
   },
