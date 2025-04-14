@@ -1,9 +1,9 @@
 @import "/home/alokinho/.cache/wal/colors-waybar.css";
 
 * {
-  font-family: "SF Pro Display", "Iosevka Nerd Font", monospace; 
+  font-family: "SF Pro Display", "Iosevka Nerd Font Propo", sans-serif; 
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   min-height: 0;
 }
 
