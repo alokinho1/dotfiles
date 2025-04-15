@@ -21,7 +21,7 @@
 
   "network": {
     "interface": "wlan0",
-    "format-wifi": "  Haven",
+    "format-wifi": "  Home",
     "format-ethernet": "  {ipaddr}",
     "format-disconnected": "󰤭  Offline"
   },
