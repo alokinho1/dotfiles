@@ -1,0 +1,11 @@
+2025/04/15-20:06:05.382 e468 Creating DB /home/alokinho/.config/vesktop/sessionData/Local Storage/leveldb since it was missing.
+2025/04/15-20:06:05.396 e468 Reusing MANIFEST /home/alokinho/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/04/15-20:08:25.827 e468 Level-0 table #5: started
+2025/04/15-20:08:25.900 e468 Level-0 table #5: 55009 bytes OK
+2025/04/15-20:08:25.907 e468 Delete type=0 #3
+2025/04/15-20:12:25.826 e469 Level-0 table #7: started
+2025/04/15-20:12:25.832 e469 Level-0 table #7: 49345 bytes OK
+2025/04/15-20:12:25.839 e469 Delete type=0 #4
+2025/04/15-20:26:46.996 e469 Level-0 table #9: started
+2025/04/15-20:26:47.002 e469 Level-0 table #9: 23448 bytes OK
+2025/04/15-20:26:47.010 e469 Delete type=0 #6
