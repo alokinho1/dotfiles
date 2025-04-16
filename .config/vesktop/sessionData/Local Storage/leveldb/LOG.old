@@ -1,11 +1,24 @@
-2025/04/15-20:06:05.382 e468 Creating DB /home/alokinho/.config/vesktop/sessionData/Local Storage/leveldb since it was missing.
-2025/04/15-20:06:05.396 e468 Reusing MANIFEST /home/alokinho/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
-2025/04/15-20:08:25.827 e468 Level-0 table #5: started
-2025/04/15-20:08:25.900 e468 Level-0 table #5: 55009 bytes OK
-2025/04/15-20:08:25.907 e468 Delete type=0 #3
-2025/04/15-20:12:25.826 e469 Level-0 table #7: started
-2025/04/15-20:12:25.832 e469 Level-0 table #7: 49345 bytes OK
-2025/04/15-20:12:25.839 e469 Delete type=0 #4
-2025/04/15-20:26:46.996 e469 Level-0 table #9: started
-2025/04/15-20:26:47.002 e469 Level-0 table #9: 23448 bytes OK
-2025/04/15-20:26:47.010 e469 Delete type=0 #6
+2025/04/16-08:01:18.533 843 Reusing MANIFEST /home/alokinho/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/04/16-08:01:18.538 843 Recovering log #8
+2025/04/16-08:01:18.538 843 Reusing old log /home/alokinho/.config/vesktop/sessionData/Local Storage/leveldb/000008.log 
+2025/04/16-08:02:18.980 843 Level-0 table #12: started
+2025/04/16-08:02:18.987 843 Level-0 table #12: 48304 bytes OK
+2025/04/16-08:02:18.994 843 Delete type=0 #8
+2025/04/16-09:35:04.228 843 Level-0 table #14: started
+2025/04/16-09:35:04.232 843 Level-0 table #14: 22868 bytes OK
+2025/04/16-09:35:04.239 843 Delete type=0 #11
+2025/04/16-10:11:20.065 843 Level-0 table #16: started
+2025/04/16-10:11:20.071 843 Level-0 table #16: 31071 bytes OK
+2025/04/16-10:11:20.078 843 Delete type=0 #13
+2025/04/16-10:11:20.078 843 Compacting 4@0 + 1@1 files
+2025/04/16-10:11:20.086 843 Generated table #17@0: 46 keys, 29220 bytes
+2025/04/16-10:11:20.086 843 Compacted 4@0 + 1@1 files => 29220 bytes
+2025/04/16-10:11:20.092 843 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/16-10:11:20.092 843 Delete type=2 #7
+2025/04/16-10:11:20.092 843 Delete type=2 #9
+2025/04/16-10:11:20.092 843 Delete type=2 #12
+2025/04/16-10:11:20.092 843 Delete type=2 #14
+2025/04/16-10:11:20.092 843 Delete type=2 #16
+2025/04/16-16:12:45.490 844 Level-0 table #19: started
+2025/04/16-16:12:45.496 844 Level-0 table #19: 44926 bytes OK
+2025/04/16-16:12:45.503 844 Delete type=0 #15
