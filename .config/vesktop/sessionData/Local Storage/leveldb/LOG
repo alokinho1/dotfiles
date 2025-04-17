@@ -1,6 +1,6 @@
-2025/04/16-21:45:23.933 626 Reusing MANIFEST /home/alokinho/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
-2025/04/16-21:45:23.946 626 Recovering log #18
-2025/04/16-21:45:23.946 626 Reusing old log /home/alokinho/.config/vesktop/sessionData/Local Storage/leveldb/000018.log 
-2025/04/16-22:02:53.403 627 Level-0 table #22: started
-2025/04/16-22:02:53.410 627 Level-0 table #22: 47190 bytes OK
-2025/04/16-22:02:53.417 627 Delete type=0 #18
+2025/04/17-15:30:04.431 5a2c Reusing MANIFEST /home/alokinho/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/04/17-15:30:04.436 5a2c Recovering log #21
+2025/04/17-15:30:04.437 5a2c Reusing old log /home/alokinho/.config/vesktop/sessionData/Local Storage/leveldb/000021.log 
+2025/04/17-18:59:07.487 5a2d Level-0 table #25: started
+2025/04/17-18:59:07.495 5a2d Level-0 table #25: 44904 bytes OK
+2025/04/17-18:59:07.503 5a2d Delete type=0 #21
