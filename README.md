@@ -129,6 +129,8 @@ Make sure to edit `.config` only
 
 Make sure .syncignore and .gitignore are set up properly to avoid clutter.
 
+.config/waypaper contains the Wallpaper folder
+
 ## 📄 To-Do
 
 1. Add .timer & .service scripts in the README ✔️
